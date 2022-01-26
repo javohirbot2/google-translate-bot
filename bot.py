@@ -5,7 +5,7 @@ updater = Updater('5248700233:AAFKW81iqxD3x-C6TcK3UFc1tJjlJncAXx0',use_context =
 
 def start(updater,context):
   user = updater.message.from_user
- updater.message.reply_html('👋🏻Assalomu alaykum <b>{}!</b>\n \n<b>Ushbu bot orqali matnlarni english\n uzbek tarzida tarjima qilishingiz\n mumkin. Botga matn yuboring.</b>')
+ updater.message.reply_html('👋🏻Assalomu alaykum <b>{}!</b>\n \n<b>Botga matn yuboring.</b>')
 format(user.first_name))
  
 def echo(updater,context):

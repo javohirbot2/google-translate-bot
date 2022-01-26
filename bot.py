@@ -1,7 +1,7 @@
 from telegram.ext import Updater,MessageHandler,CommandHandler,Filters
 from googletrans import Translator
 
-updater = Updater('5047160628:AAFI241gfwIu6YoT8ykd-8u3_zcrtj-AwDM',use_context = True )
+updater = Updater('5248700233:AAFKW81iqxD3x-C6TcK3UFc1tJjlJncAXx0',use_context = True )
 
 def start(updater,context):
   user = updater.message.from_user

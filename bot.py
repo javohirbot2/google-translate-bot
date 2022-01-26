@@ -11,7 +11,7 @@ format(user.first_name))
 def echo(updater,context):
  usr_msg =updater.message.text
  translator = Translator()
- translation = translator.translate(usr_msg,dest='hi') 
+ translation = translator.translate(usr_msg,dest='uz') 
  updater.message.reply_text(translation.text)
  
 dp =updater.dispatcher.add_handler
